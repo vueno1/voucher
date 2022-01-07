@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*///////
+NAV BAR 
+//////*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: yellow;
+    width: 100%
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+
+.headerH1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.index_nav {
+    display: flex;
+    width: 100%;
+}
+
+.index_ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    justify-content:space-evenly;   
+}
+
+.index_li a {
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    color: black;
+}
+
+/*///////////////
+IMAGEN INDEX BANNER 
+//////////////////*/
+
+.main_img {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+/*/////////////
+INDEX MAIN 
+//////////*/
+.main {
+    padding-top: 100px;
+}
+
+/*//////////////////
+SECCION OPERADORES 
+/////////////////*/
+.seccion_operadores {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.info_operadores {
+    display: inline-block;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 5px;
+    border: rgba(128, 128, 128, 0.356) dotted;
+    padding: 20px ;
+    text-align: center;
+}
+
+.seccion_operadoresFTE {
+    margin: 0 0 20px 0;
+}
+
+.operadoPorSeccion {
+    display: inline-block;
+    text-align: right;
+}
+
+/*///////////////////
+ESTILOS DE ADMNISTRADOR.HTML
+//////////////////////////*/
+
+.administradorMain {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.adm_seccionIngresarDatos {
+    margin: 20px 0;
+}
+
+#ingresoDatos {
+    margin: 20px;
+}
+
+.adm_seccionVoucher {
+    padding: 0 50px 0 50px;
+}
+
+.adm_input_servicios {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_iravoucher {
+    background-color: hotpink;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.voucher_img_logo {
+    margin-left: 40px;
+    border-bottom: rgba(128, 128, 128, 0.342) dotted;
+}
+
+.voucher_img_logo  img {
+    height: 100px ;
+      
+}
+
+.voucher_titulo {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.input_class {
+    margin: 10px;   
+}
+
+.botonesVouchers {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#btn_voucher {
+    display:inline-block;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.voucher_reset {
+    display: inline-block;
+    width: 150px ;
+    margin-bottom: 20px;
+}
+
+.borrarBaseDatos {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+/*/////
+VOUCHER 
+//////*/
+
+.mainVoucher {
+    padding-top: 100px;
+    padding-left: 30px;   
+}
+
+.adm_seccionIngresarDatos {
+    display: flex;
+    flex-direction: row;
+}
+
+.voucher_seccion {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;  
+    padding: 0 400px 0 200px;
+}
+
+.voucherAgencia h1 {
+    font-family: 'PT Serif', serif;
+    color: rgb(115, 115, 201);
+    font-size: 30px;
+}
+
+.voucherDiv {
+    margin: 50px 0;
+}
+
+.divDetalleProveedor {
+
+    border-top: rgba(128, 128, 128, 0.295) solid;
+}
+
+.divDetalleCliente {
+    margin: 30px 0;
+    border-top:rgba(128, 128, 128, 0.295) solid ;
+}
+
+.divDetalleServicio {
+    border-top:rgba(128, 128, 128, 0.295) solid ;
+}
+
+.checkin {
+    padding: 10px 0 10px 0;
+}
+
+.checkout {
+    padding: 0 0 10px 0;
+}
+
+.serviciosIncluidos {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    margin-top: 20px;
+    border-top:rgba(128, 128, 128, 0.295) dotted ;   
+}
+
+.descripcion1 {
+    padding-top: 20px;
+}
+
+.descripcion2 {
+    padding-top: 20px;
+}
+
+.descripcion3 {
+    padding-top: 20px;
+}
+
+.descripcion4 {
+    padding-top: 20px;
+}
+
+.detalle_footer {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}

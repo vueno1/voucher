@@ -1,0 +1,53 @@
+previo al viaje de arg. 
+
+(aereos, fluviales internacionales) 
+
+*declaracion jurada (DDJJ) , completada 48horas antes del inicio del viaje 
+
+*prueba pcr negativa (del pais de donde viene, dentro de las 72horas antes del viaje)
+ o certificado de alta medica (emitido dentro de los 90 dias ) + pcr negativo
+
+ *certificado de vacunacion (completado 14 dias antes del viaje)
+ vacunacion completa segun lo que especifique su propio pais x "completo".
+
+ *seguro de salud de covid19.
+ cobertura (internacion, aislamiento y/o traslados sanitarios → por contacto extrecho, sospechoso o positivo)
+
+ Si no tienen esto, los operadores de transportes pueden negarse a embarcar al pasajero. 
+
+/// EXTRANJEROS /// 
+
+ mayores de 6 años 
+ entre el 3er y 5to dia → pcr (y durante esos dias no pueden estar en eventos masivos, sociales y lugares cerrados)
+
+ /// cruceros a la antartida + bioceanicos en la argentina ///
+
+ si hay un positivo, se envia la prueba a secuenciar y todo el buque estara en cuarentena hasta saber el resultado.
+
+ Es decir, a ver si es omicron.
+
+ si no es, se mantiene la definicion de brote vigente que aplica en buques. 
+
+ Si es omicron, permanecera en cuarentena todo el buque siguiendo las recomendaciones sanitarias nacionales. 
+ no se permitira el desembarco de casos positivos, salvo cuestiones salud justificada. 
+
+
+ --------------------------------------------------------------------------------
+
+ nav: 
+
+ hoteles 
+ transporte (tipo de transporte)
+ restaurantes (tipo de comidas)
+ guias 
+ datos de la agencia 
+ covid (restricciones internacional x paises )
+ covid (restricciones nacionales )
+ aereos (protocolos y permisos)
+ recomendaciones de viaje 
+ fechas vacaciones 
+ fechas feriados 
+ fechas eventos 
+ 
+
+
