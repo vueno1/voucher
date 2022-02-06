@@ -4,6 +4,7 @@ VARIABLES
 //////////////*/
 
 let voucher;
+const formulario = document.getElementById ("formulario")
 
 /*///////
 VOUCHER 
@@ -90,17 +91,16 @@ const guardarInfoVoucher = () => {
 
 }
 
-document.getElementById ("btn_voucher").addEventListener ("click", (e) => {
+formulario.addEventListener ("submit", (e) => {  
     e.preventDefault ()
     guardarInfoVoucher ()
 })
 
 const borrarBaseDatosVoucher = () => {
-
   localStorage.removeItem ('voucher')
   console.log ("base de datos VOUCHER eliminado")
   document.location.reload()
-
+  
 }
 
 document.getElementsByClassName ("borrarBaseDatos")[0].addEventListener ("click", (e) => {

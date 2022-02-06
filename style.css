@@ -79,6 +79,7 @@ SECCION OPERADORES
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    padding-left: 20px;
 }
 
 .info_operadores {
@@ -100,6 +101,14 @@ SECCION OPERADORES
     text-align: right;
 }
 
+.footer {
+    background-color: yellow;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
 /*///////////////////
 ESTILOS DE ADMNISTRADOR.HTML
 //////////////////////////*/
@@ -108,6 +117,7 @@ ESTILOS DE ADMNISTRADOR.HTML
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    padding-left: 20px;
 }
 
 .adm_seccionIngresarDatos {
@@ -156,10 +166,6 @@ ESTILOS DE ADMNISTRADOR.HTML
     padding-bottom: 20px;
 }
 
-.input_class {
-    margin: 10px;   
-}
-
 .botonesVouchers {
     display: flex;
     flex-direction: column;
@@ -183,6 +189,76 @@ ESTILOS DE ADMNISTRADOR.HTML
     width: 150px;
     margin-bottom: 50px;
 }
+
+#voucher_direccion {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_telefono{
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_reserva{
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_nombre{
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_cantidad{
+    display:flex;
+    margin-top: 10px;
+}
+
+#voucher_in{
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_out{
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion3 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion4 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion5 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#voucher_descripcion6 {
+    display: flex;
+    margin-top: 10px;
+}
+
+#btn_voucher {
+    margin: 10px 0 20px 0;
+}
+
 
 /*/////
 VOUCHER 
@@ -212,11 +288,10 @@ VOUCHER
 }
 
 .voucherDiv {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 .divDetalleProveedor {
-
     border-top: rgba(128, 128, 128, 0.295) solid;
 }
 

@@ -34,88 +34,52 @@
         <div class="voucher_img_logo">
             <h2> hola!, aqui cargue los datos del voucher </h2>      
             <img src="../../source/personajes/pose_reiwa_woman.png" alt="">
-        </div> 
+        </div>  
+
+        <form action="/pages/voucher/voucher.html" id="formulario">
+
+            <legend class="voucher_titulo">vouchers</legend>                
+            <label for="vendedorVoucher">Venta Hecha por:</label>
+
+            <select name="vendedor" id="vendedorVoucher">
+                <option label="vendedor1" value="vendedor1" > vendedor1</option>
+                <option label="vendedor2" value="vendedor2"></option>
+                <option label="vendedor3" value="vendedor3"></option>
+            </select>
+    
+            <label for="voucher_proveedor"> Datos proveedor: </label>
+
+            <select  class="input_class" name="proveedor" id="voucher_proveedor">
+                <option label="operador1" value="operador1" > OPERADOR 1</option>
+                <option label="operador2" value="operador2"></option>
+            </select>
         
+            <input id="voucher_direccion" type="text" placeholder="direccion" required>
+            <input id="voucher_telefono" type="text" placeholder="telefono" required>
+            <input id="voucher_reserva" type="text" placeholder="n° reserva (operador)">
+            <input id="voucher_nombre" type="text" placeholder="nombre y apellido" required>
+            <input id="voucher_cantidad" type="number" placeholder="cantidad de personas" min="1" required>
+            <input id="voucher_in" type="date" placeholder="check in" required>
+            <input id="voucher_out" type="date" placeholder="check out" required>
+            
+            <textarea id="voucher_descripcion1"  placeholder="dia 1" required></textarea>
+            <textarea id="voucher_descripcion2" placeholder="dia 2"></textarea>
+            <textarea id="voucher_descripcion3" placeholder="dia 3"></textarea>
+            <textarea id="voucher_descripcion4"  placeholder="dia 4"></textarea>
+            <textarea id="voucher_descripcion5" placeholder="dia 5"></textarea>
+            <textarea id="voucher_descripcion6"  placeholder="dia 6"></textarea>             
+    
+            <button id="btn_voucher" type="submit">enviar</button>
 
-        <section class="adm_seccionVoucher">
+        </form>
 
-            <!-- //////////////////////////
-            FORMULARIO PARA VOUCHERS 
-            ////////////////////////// -->
-    
-            <form action="">
-                <legend class="voucher_titulo">vouchers</legend>
-
-                <h3>venta hecha por:</h3>
-                <input type="text" id="vendedorVoucher" placeholder="Vendedor">
-    
-                <h3>datos del proveedor: </h3>
-                <div class="input_class">
-                    <input id="voucher_proveedor" type="text" placeholder="proveedor">
-                </div>
-    
-                <div class="input_class">
-                    <input id="voucher_direccion" type="text" placeholder="direccion">
-                </div>
-    
-                <div class="input_class">
-                    <input id="voucher_telefono" type="text" placeholder="telefono">
-                </div>
-    
-                <div class="input_class">
-                    <input id="voucher_reserva" type="text" placeholder="n° reserva (operador)">
-                </div>
-    
-                <h3>datos del pasajero/s: </h3>
-                <div class="input_class">
-                    <input id="voucher_nombre" type="text" placeholder="nombre y apellido">
-                </div>
-    
-                <div class="input_class">
-                    <input id="voucher_cantidad" type="number" placeholder="cantidad de personas">
-                </div>
-    
-                <h4>fechas in/out: </h4>
-                <div class="input_class">
-                    <input id="voucher_in" type="text" placeholder="check in">
-                </div>
-    
-                <div class="input_class">
-                    <input id="voucher_out" type="text" placeholder="check out">
-                </div>
-    
-                <h4>Detalle de servicios: </h4>
-                <div class="adm_input_servicios">
-                    <textarea name="" id="voucher_descripcion1"  placeholder="dia 1"></textarea>
-                    <textarea name="" id="voucher_descripcion2" placeholder="dia 2"></textarea>
-                    <textarea name="" id="voucher_descripcion3" placeholder="dia 3"></textarea>
-                    <textarea name="" id="voucher_descripcion4"  placeholder="dia 4"></textarea>
-                    <textarea name="" id="voucher_descripcion5" placeholder="dia 5"></textarea>
-                    <textarea name="" id="voucher_descripcion6"  placeholder="dia 6"></textarea>
-                    
-                </div>
-    
-    
-                <div class="botonesVouchers">
-
-                    <button id="btn_voucher">guardar voucher</button>
         
-                    <h5>😙 PARA VER EL VOUCHER TOQUE EL LINK ROSADO! </h5>
-                    <a href="../voucher/voucher.html" class="btn_iravoucher">VER VOUCHER</a>
+        <button class="borrarBaseDatos">borrar base de datos</button>            
         
-                    <h5>RESTABLECER: BORRA LOS CAMPOS LLENOS</h5>
-                    <input class="voucher_reset" type="reset">    
-        
-                    <h5>EN EL CASO QUE VEA MUCHOS DATOS EN EL VOUCHER, BORRE LA BASE DE DATOS</h5>
-                    <button class="borrarBaseDatos">borrar base de datos</button>
-
-                </div>
-    
-            </form>
-
-        </section>
-
-
+        <!-- 
+            <a href="../voucher/voucher.html" class="btn_iravoucher">VER VOUCHER</a>        
+            <input class="voucher_reset" type="reset">
+        -->
 
     </main>
     
