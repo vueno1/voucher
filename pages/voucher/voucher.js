@@ -6,6 +6,8 @@ if (localStorage.getItem ("voucher") == null ) {
     informacionVoucher = JSON.parse (localStorage.getItem ("voucher"))
 }
 
+console.log (informacionVoucher)
+
 informacionVoucher.forEach (e => {
 
     const divVoucher = document.createElement ("div")

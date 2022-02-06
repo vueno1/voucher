@@ -265,7 +265,6 @@ VOUCHER
 //////*/
 
 .mainVoucher {
-    padding-top: 100px;
     padding-left: 30px;   
 }
 
@@ -341,4 +340,10 @@ VOUCHER
     font-weight: bolder;
     display: flex;
     flex-direction: column;
+}
+
+#print {
+    display: inline-block;
+    width: 10%;
+
 }
