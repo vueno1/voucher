@@ -1,0 +1,26 @@
+{
+  "name": "voucher",
+  "version": "1.0.0",
+  "description": "voucher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueno1/voucher.git"
+  },
+  "keywords": [
+    "transactionApi",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vueno1/voucher/issues"
+  },
+  "homepage": "https://github.com/vueno1/voucher#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
