@@ -32,7 +32,7 @@
     <main class="administradorMain">
         
         <div class="voucher_img_logo">
-            <h2> hola!, aqui cargue los datos del voucher </h2>      
+            <h2> Hola!!!, aquí cargue los datos del voucher </h2>      
             <img src="../../source/personajes/pose_reiwa_woman.png" alt="">
         </div>  
         
@@ -42,21 +42,24 @@
         <form action="/pages/voucher/voucher.html" id="formulario">
 
             <legend class="voucher_titulo">vouchers</legend>                
-            <label for="vendedorVoucher">Venta Hecha por:</label>
+            <label for="vendedorVoucher">Vendedor = </label>
 
             <select name="vendedor" id="vendedorVoucher">
                 <option label="Christian" value="Christian Oyadomari" > Christian</option>
                 <option label="Natalia" value="Natalia Chaui"></option>
                 <option label="Valeria" value="Valeria Ueno"></option>
+                <option label="fernando" value="Fernando Nago"></option>
+                <option label="miri" value="Miri Koide"></option>
             </select>
     
-            <label for="voucher_proveedor"> Datos proveedor: </label>
+            <label for="voucher_proveedor"> Proveedor =  </label>
 
-            <select  class="input_class" name="proveedor" id="voucher_proveedor">
+            <!-- <select  class="input_class" name="proveedor" id="voucher_proveedor">
                 <option label="rumbo sur" value="RUMBO SUR SRL" > rumbo sur </option>
                 <option label="iguacu ryokou" value="Iguacu Ryokou"></option>
-            </select>
-        
+            </select> -->
+            
+            <input id="voucher_proveedor" type="text" placeholder="proveedor" required>
             <input id="voucher_direccion" type="text" placeholder="direccion" required>
             <input id="voucher_telefono" type="text" placeholder="telefono" required>
             <input id="voucher_reserva" type="text" placeholder="n° reserva (operador)">
