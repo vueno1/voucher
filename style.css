@@ -146,7 +146,7 @@ ESTILOS DE ADMNISTRADOR.HTML
 .borrarBaseDatos {
     display: inline-block;
     width: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     background-color: red;
 }
 
