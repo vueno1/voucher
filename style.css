@@ -237,14 +237,23 @@ VOUCHER
     display: flex;
     flex-direction: column;
     margin: 20px;  
-    border: black solid;
-    padding: 40px;
+    border: rgba(0, 0, 0, 0.445) solid;
+    padding: 10px 80px 10px 80px;
+    background-image: url(source/IMG_3132.JPG);
 }
 
 .voucherAgencia h1 {
     font-family: 'PT Serif', serif;
     color: rgb(115, 115, 201);
     font-size: 30px;
+}
+
+.h2Voucher {
+    text-align: right;
+}
+
+.reserva {
+    text-align: right;
 }
 
 .voucherDiv {
