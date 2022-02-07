@@ -109,7 +109,7 @@ SECCION OPERADORES
     padding: 20px 0;
 }
 
-/*///////////////////
+/*///////////////////////////
 ESTILOS DE ADMNISTRADOR.HTML
 //////////////////////////*/
 
@@ -120,43 +120,8 @@ ESTILOS DE ADMNISTRADOR.HTML
     padding-left: 20px;
 }
 
-.adm_seccionIngresarDatos {
-    margin: 20px 0;
-}
-
-#ingresoDatos {
-    margin: 20px;
-}
-
-.adm_seccionVoucher {
-    padding: 0 50px 0 50px;
-}
-
-.adm_input_servicios {
-    display: flex;
-    flex-direction: column;
-}
-
-.btn_iravoucher {
-    background-color: hotpink;
-    display: inline-block;
-    width: 150px;
-    height: 30px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    margin-bottom: 20px;
-}
-
-.voucher_img_logo {
-    margin-left: 40px;
-    border-bottom: rgba(128, 128, 128, 0.342) dotted;
-}
-
 .voucher_img_logo  img {
-    height: 100px ;
-      
+    height: 100px ;      
 }
 
 .voucher_titulo {
@@ -178,16 +143,11 @@ ESTILOS DE ADMNISTRADOR.HTML
     margin-bottom: 20px;
 }
 
-.voucher_reset {
-    display: inline-block;
-    width: 150px ;
-    margin-bottom: 20px;
-}
-
 .borrarBaseDatos {
     display: inline-block;
     width: 150px;
     margin-bottom: 50px;
+    background-color: red;
 }
 
 #voucher_direccion {

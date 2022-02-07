@@ -38,3 +38,4 @@ informacionVoucher.forEach (e => {
         
     document.getElementsByClassName ("voucherDiv")[0].appendChild (divVoucher)
 })
+

@@ -1,4 +1,3 @@
-
 /*///////////////
 VARIABLES
 //////////////*/
@@ -99,11 +98,13 @@ formulario.addEventListener ("submit", (e) => {
 const borrarBaseDatosVoucher = () => {
   localStorage.removeItem ('voucher')
   console.log ("base de datos VOUCHER eliminado")
-  document.location.reload()
+  document.location.reload() 
   
 }
 
 document.getElementsByClassName ("borrarBaseDatos")[0].addEventListener ("click", (e) => {
     e.preventDefault ()
     borrarBaseDatosVoucher ()
+
 })
+
