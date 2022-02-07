@@ -225,7 +225,7 @@ VOUCHER
 //////*/
 
 .mainVoucher {
-    padding-left: 30px;   
+    padding: 0 50px 50px 0;   
 }
 
 .adm_seccionIngresarDatos {
@@ -237,7 +237,8 @@ VOUCHER
     display: flex;
     flex-direction: column;
     margin: 20px;  
-    padding: 0 400px 0 200px;
+    border: black solid;
+    padding: 40px;
 }
 
 .voucherAgencia h1 {

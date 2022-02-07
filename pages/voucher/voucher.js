@@ -24,8 +24,8 @@ informacionVoucher.forEach (e => {
         document.getElementsByClassName ("nombrePax")[0].append (`${e.proveedor.nombrePax}`)
         document.getElementsByClassName ("cantidadPax")[0].append (`${e.proveedor.cantidadPax}`)
 
-        document.getElementsByClassName ("checkin")[0].append (`${e.proveedor.checkin}`)
-        document.getElementsByClassName ("checkout")[0].append (`${e.proveedor.checkout}`)
+        document.getElementsByClassName ("checkin")[0].append (`${new Date (e.proveedor.checkin)}`)
+        document.getElementsByClassName ("checkout")[0].append (`${new Date (e.proveedor.checkout)}`)
 
         document.getElementsByClassName ("descripcion1")[0].append (`${e.proveedor.descripcionVoucher1}`)
         document.getElementsByClassName ("descripcion2")[0].append (`${e.proveedor.descripcionVoucher2}`)
